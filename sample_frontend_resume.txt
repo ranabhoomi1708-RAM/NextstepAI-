@@ -1,0 +1,19 @@
+
+Alex Morgan
+alex.morgan@email.com | 123-456-7890
+LinkedIn: linkedin.com/in/alexmorgan | GitHub: github.com/alexmorgan
+
+EDUCATION
+BS Computer Science, State College (2021-2025)
+
+SKILLS
+HTML5, CSS3, JavaScript, React, Redux, Tailwind CSS, Git, Responsive Design
+
+PROJECTS
+E-Commerce Frontend: Built React store using Tailwind and Redux. Increased mobile engagement by 40%.
+Portfolio Website: Built responsive web design using HTML, CSS, JavaScript.
+
+EXPERIENCE
+Frontend Developer Intern at WebTech (2024)
+- Built interactive UI components in React and JavaScript.
+  

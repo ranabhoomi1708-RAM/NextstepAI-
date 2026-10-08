@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Next step AI — AI Career Assistant</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Client-side PDF & DOCX text extraction libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+</head>
+
+<body>
+
+  <div class="stars"></div>
+
+  <!-- ================= NAVBAR ================= -->
+
+  <header class="navbar">
+
+    <a href="#" class="logo">
+      <span class="logo-icon">✦</span>
+      <span>Next<span>step</span>AI</span>
+    </a>
+
+    <nav class="nav-links">
+
+      <a href="#">Home</a>
+
+      <a href="#" data-popup="resume">Resume Analyzer</a>
+
+      <a href="#" data-popup="interview">Mock Interview</a>
+
+      <a href="#" data-popup="skills">Skill Gap</a>
+
+      <a href="#" data-popup="roadmap">Roadmap</a>
+
+      <a href="#" data-popup="dashboard">Dashboard</a>
+
+      <a href="#" data-popup="internships">Internships</a>
+
+      <a href="#" data-popup="premium">Pricing</a>
+
+    </nav>
+
+    <div class="nav-actions" id="nav-actions-container">
+
+      <a href="#" class="login" data-popup="login" id="nav-login-btn">
+        Login
+      </a>
+
+      <button class="btn btn-small" data-popup="signup" id="nav-signup-btn">
+        Sign Up ✦
+      </button>
+
+    </div>
+
+    <button class="menu-btn">☰</button>
+
+  </header>
+
+
+  <main>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+      <div class="hero-content">
+
+        <div class="ai-badge">
+          <span class="pulse-dot"></span>
+          Powered by Advanced AI Models
+        </div>
+
+        <h1>
+          Accelerate Your
+          <br>
+          Career with
+          <span class="gradient-text">AI</span>
+        </h1>
+
+        <p class="hero-text">
+          Analyze your resume, master interviews, identify skill gaps,
+          generate personalized learning roadmaps, and land your dream
+          internship — all with your AI career co-pilot.
+        </p>
+
+        <div class="hero-buttons">
+
+          <button class="btn btn-primary" data-popup="signup">
+            Get Started →
+          </button>
+
+          <button class="btn btn-secondary" data-popup="demo">
+            ◉ &nbsp; Watch Demo
+          </button>
+
+        </div>
+
+      </div>
+
+
+      <div class="ai-visual">
+
+        <div class="orbit orbit-1"></div>
+        <div class="orbit orbit-2"></div>
+        <div class="orbit orbit-3"></div>
+
+        <div class="orbit-dot dot-a"></div>
+        <div class="orbit-dot dot-b"></div>
+        <div class="orbit-dot dot-c"></div>
+
+        <div class="ai-core">
+          <span>✦</span>
+          <small>AI Co-Pilot</small>
+        </div>
+
+        <div class="floating-card card-score">
+          <div class="card-label">ATS SCORE</div>
+          <strong>92 / 100</strong>
+        </div>
+
+        <div class="floating-card card-skill">
+          <div class="card-label">SKILL MATCH</div>
+          <strong>78%</strong>
+        </div>
+
+        <div class="floating-card card-interview">
+          <div class="card-label">INTERVIEW</div>
+          <strong>Confident</strong>
+        </div>
+
+        <div class="floating-card card-roadmap">
+          <div class="card-label">ROADMAP</div>
+          <strong>65% Complete</strong>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= FEATURES ================= -->
+
+    <section class="section" id="features">
+
+      <div class="section-heading">
+
+        <span class="eyebrow">
+          POWERFUL AI TOOLS
+        </span>
+
+        <h2>
+          Everything You Need
+          <br>
+          <span class="gradient-text">
+            To Succeed
+          </span>
+        </h2>
+
+        <p>
+          One intelligent platform to take your career
+          from college to your dream job.
+        </p>
+
+      </div>
+
+
+      <div class="feature-grid">
+
+        <!-- RESUME -->
+
+        <article class="feature-card">
+
+          <div class="feature-icon">
+            ▣
+          </div>
+
+          <h3>AI Resume Analyzer</h3>
+
+          <p>
+            Get an ATS score, discover missing keywords,
+            improve formatting and receive AI-powered suggestions.
+          </p>
+
+          <a href="#" class="feature-link" data-popup="resume">
+            Analyze Resume →
+          </a>
+
+        </article>
+
+
+        <!-- INTERVIEW -->
+
+        <article class="feature-card">
+
+          <div class="feature-icon">
+            ◉
+          </div>
+
+          <h3>AI Mock Interview</h3>
+
+          <p>
+            Practice technical, HR and behavioral interviews
+            with an AI interviewer and receive instant feedback.
+          </p>
+
+          <a href="#" class="feature-link" data-popup="interview">
+            Start Interview →
+          </a>
+
+        </article>
+
+
+        <!-- SKILL GAP -->
+
+        <article class="feature-card">
+
+          <div class="feature-icon">
+            ◎
+          </div>
+
+          <h3>Skill Gap Analysis</h3>
+
+          <p>
+            Compare your current skills with your target role
+            and discover exactly what you need to learn.
+          </p>
+
+          <a href="#" class="feature-link" data-popup="skills">
+            Find Skill Gaps →
+          </a>
+
+        </article>
+
+
+        <!-- ROADMAP -->
+
+        <article class="feature-card">
+
+          <div class="feature-icon">
+            ⌁
+          </div>
+
+          <h3>AI Learning Roadmap</h3>
+
+          <p>
+            Get a personalized roadmap with skills,
+            projects, courses and weekly learning goals.
+          </p>
+
+          <a href="#" class="feature-link" data-popup="roadmap">
+            View Roadmap →
+          </a>
+
+        </article>
+
+
+        <!-- DASHBOARD -->
+
+        <article class="feature-card">
+
+          <div class="feature-icon">
+            ◆
+          </div>
+
+          <h3>Career Dashboard</h3>
+
+          <p>
+            Track your ATS score, skills, interview performance,
+            roadmap progress and career growth.
+          </p>
+
+          <a href="#" class="feature-link" data-popup="dashboard">
+            Open Dashboard →
+          </a>
+
+        </article>
+
+
+        <!-- INTERNSHIP -->
+
+        <article class="feature-card premium-feature">
+
+          <div class="feature-icon gold">
+            ★
+          </div>
+
+          <div class="premium-label">
+            PREMIUM
+          </div>
+
+          <h3>Internship Finder</h3>
+
+          <p>
+            Discover internships matched to your skills,
+            interests, location and career goals with AI.
+          </p>
+
+          <a href="#" class="feature-link" data-popup="internships">
+            Explore Internships →
+          </a>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= PREMIUM ================= -->
+
+    <section class="premium-section section">
+
+      <span class="premium-pill">
+        ✦ PREMIUM
+      </span>
+
+      <h2>
+        Unlock Your Full
+        <br>
+        <span class="gradient-text">
+          Career Potential
+        </span>
+      </h2>
+
+      <p>
+        Unlimited AI tools, personalized career guidance
+        and access to premium internship opportunities.
+      </p>
+
+      <div class="price">
+        ₹299
+        <small>/ month</small>
+      </div>
+
+      <button class="btn btn-primary" data-popup="premium">
+        Upgrade to Premium →
+      </button>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer>
+
+    <div class="logo">
+      <span class="logo-icon">✦</span>
+      Next<span>step</span>AI
+    </div>
+
+    <p>
+      AI Career Assistant for Engineering Students
+    </p>
+
+    <p>
+      © 2026 Next step AI. All rights reserved.
+    </p>
+
+  </footer>
+
+
+  <!-- ================================================= -->
+  <!-- ================= POPUPS ========================= -->
+  <!-- ================================================= -->
+
+
+  <!-- ================================================= -->
+  <!-- ================= POPUPS ========================= -->
+  <!-- ================================================= -->
+
+
+  <!-- RESUME POPUP -->
+
+  <div class="popup-overlay" id="resume">
+
+    <div class="popup">
+
+      <button class="popup-close" type="button" aria-label="Close">×</button>
+
+      <div class="popup-icon">
+        ▣
+      </div>
+
+      <h2>AI Resume Analyzer</h2>
+
+      <p>
+        Upload your resume and let Next step AI analyze your
+        ATS compatibility, keywords, formatting, and role-specific skills.
+      </p>
+
+      <label for="resume-target-role"><strong>Target Job Role</strong></label>
+
+      <select id="resume-target-role" class="popup-input">
+        <option value="aiml">AI/ML Engineer</option>
+        <option value="software">Software Developer</option>
+        <option value="frontend">Frontend Developer</option>
+        <option value="backend">Backend Developer</option>
+        <option value="fullstack">Full Stack Developer</option>
+        <option value="data">Data Scientist</option>
+        <option value="android">Android Developer</option>
+      </select>
+
+      <label for="resume-file-input"><strong>Upload Resume (PDF, DOC, DOCX, TXT)</strong></label>
+
+      <input type="file" id="resume-file-input" class="popup-input" accept=".pdf,.doc,.docx,.txt">
+
+      <div id="resume-file-name"
+        style="display:none; margin-top:-8px; margin-bottom:14px; font-size:13px; color:#159a9c; font-weight:600;">
+      </div>
+
+      <div style="margin-bottom:15px;">
+        <a href="#" id="toggle-paste-resume"
+          style="font-size:12px; color:#159a9c; font-weight:600; text-decoration:none;">
+          📝 Or paste resume text directly
+        </a>
+        <div id="paste-resume-container" style="display:none; margin-top:10px;">
+          <textarea id="resume-text-input" class="popup-input"
+            placeholder="Paste your complete resume text here..."></textarea>
+        </div>
+      </div>
+
+      <button class="btn btn-primary full" id="run-resume-analysis" type="button">
+        Analyze Resume →
+      </button>
+
+      <div class="popup-result" id="resume-result" style="display:none;"></div>
+
+    </div>
+
+  </div>
+
+
+  <!-- INTERVIEW POPUP -->
+
+  <div class="popup-overlay" id="interview">
+
+    <div class="popup" style="max-width: 680px;">
+
+      <button class="popup-close" type="button" aria-label="Close">×</button>
+
+      <div class="popup-icon">
+        ◉
+      </div>
+
+      <h2>AI Mock Interview</h2>
+
+      <!-- SETUP VIEW -->
+      <div id="interview-setup-view">
+        <p>
+          Select your target role, difficulty, and interview category to start an AI-guided practice interview.
+        </p>
+
+        <label for="interview-role"><strong>Target Job Role</strong></label>
+        <select id="interview-role" class="popup-input">
+          <option value="aiml">AI/ML Engineer</option>
+          <option value="software">Software Developer</option>
+          <option value="frontend">Frontend Developer</option>
+          <option value="backend">Backend Developer</option>
+          <option value="fullstack">Full Stack Developer</option>
+          <option value="data">Data Scientist</option>
+          <option value="android">Android Developer</option>
+        </select>
+
+        <label for="interview-difficulty"><strong>Difficulty Level</strong></label>
+        <select id="interview-difficulty" class="popup-input">
+          <option value="Beginner">Beginner (College / Entry Level)</option>
+          <option value="Intermediate" selected>Intermediate (Standard Tech Interview)</option>
+          <option value="Advanced">Advanced (Deep Technical / Problem Solving)</option>
+        </select>
+
+        <label><strong>Interview Type</strong></label>
+        <div class="popup-options" id="interview-type-options">
+          <div class="popup-option selected" data-type="technical">
+            <strong>💻 Technical</strong>
+            <span>DSA, coding, architecture & core CS</span>
+          </div>
+          <div class="popup-option" data-type="hr">
+            <strong>👔 HR Interview</strong>
+            <span>Behavioral & workplace scenarios</span>
+          </div>
+          <div class="popup-option" data-type="behavioral">
+            <strong>🧠 Behavioral</strong>
+            <span>STAR method & leadership</span>
+          </div>
+          <div class="popup-option" data-type="mixed">
+            <strong>⚡ Mixed Complete</strong>
+            <span>Full comprehensive interview</span>
+          </div>
+        </div>
+
+        <button class="btn btn-primary full" id="btn-start-interview" type="button">
+          Start AI Interview Session →
+        </button>
+      </div>
+
+      <!-- ACTIVE QUESTION VIEW -->
+      <div id="interview-active-view" style="display:none;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+          <span id="interview-q-progress-badge"
+            style="font-size:12px; font-weight:700; color:#159a9c; text-transform:uppercase; letter-spacing:1px;">
+            Question 1 of 4
+          </span>
+          <span id="interview-q-category-badge"
+            style="font-size:11px; padding:3px 8px; border-radius:12px; background:rgba(21,154,156,0.1); color:#159a9c; font-weight:600;">
+            Technical
+          </span>
+        </div>
+
+        <div class="popup-progress-bar" style="margin-bottom:16px;">
+          <div class="popup-progress-fill" id="interview-q-bar" style="width:25%;"></div>
+        </div>
+
+        <div
+          style="padding:16px; background:#f8fafb; border:1px solid rgba(38,55,70,0.1); border-radius:14px; margin-bottom:16px;">
+          <strong style="color:#263746; font-size:16px; display:block; margin-bottom:6px;">Question:</strong>
+          <p id="interview-question-text"
+            style="color:#263746; font-size:15px; font-weight:500; line-height:1.6; margin:0;">
+            Loading question...
+          </p>
+        </div>
+
+        <label for="interview-answer-input"><strong>Your Answer:</strong></label>
+        <textarea id="interview-answer-input" class="popup-input"
+          placeholder="Type your structured answer here (explain key concepts, give examples, or describe approach)..."
+          style="min-height:110px;"></textarea>
+
+        <button class="btn btn-primary full" id="btn-submit-answer" type="button">
+          Submit Answer for AI Evaluation →
+        </button>
+
+        <!-- Instant Feedback for Question -->
+        <div id="interview-evaluation-card"
+          style="display:none; margin-top:16px; padding:16px; background:rgba(21,154,156,0.06); border-left:3px solid #159a9c; border-radius:10px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+            <strong style="color:#159a9c; font-size:15px;">AI Assessment:</strong>
+            <strong id="interview-q-score" style="color:#159a9c; font-size:18px;">8.5 / 10</strong>
+          </div>
+          <p id="interview-q-feedback-text" style="font-size:14px; color:#263746; line-height:1.5; margin-bottom:12px;">
+          </p>
+          <button class="btn btn-primary full" id="btn-next-question" type="button">
+            Next Question →
+          </button>
+        </div>
+      </div>
+
+      <!-- SCORECARD VIEW -->
+      <div id="interview-scorecard-view" style="display:none;">
+        <div style="text-align:center; margin-bottom:20px;">
+          <span
+            style="font-size:12px; font-weight:700; color:#52616f; text-transform:uppercase; letter-spacing:1px;">Interview
+            Completed</span>
+          <div id="interview-final-score" style="font-size:42px; font-weight:800; color:#159a9c; margin:4px 0;">
+            86<small style="font-size:18px; color:#687783;">/100</small>
+          </div>
+          <p id="interview-final-summary" style="font-size:14px; color:#687783; margin:0;">
+            Great job! You demonstrated solid technical clarity and structured communication.
+          </p>
+        </div>
+
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:18px;">
+          <div style="padding:12px; background:rgba(21,154,156,0.06); border-radius:10px; text-align:center;">
+            <span style="font-size:11px; color:#52616f; font-weight:700; text-transform:uppercase;">Technical
+              Knowledge</span>
+            <strong id="interview-tech-score"
+              style="font-size:20px; color:#159a9c; display:block; margin-top:2px;">88%</strong>
+          </div>
+          <div style="padding:12px; background:rgba(21,154,156,0.06); border-radius:10px; text-align:center;">
+            <span style="font-size:11px; color:#52616f; font-weight:700; text-transform:uppercase;">Communication
+              Clarity</span>
+            <strong id="interview-comm-score"
+              style="font-size:20px; color:#159a9c; display:block; margin-top:2px;">84%</strong>
+          </div>
+        </div>
+
+        <div style="margin-bottom:16px;">
+          <strong style="font-size:13px; color:#263746; display:block; margin-bottom:4px;">Key Strengths:</strong>
+          <ul id="interview-strengths-list" style="margin:0 0 0 20px; font-size:13px; color:#263746; line-height:1.6;">
+          </ul>
+        </div>
+
+        <div style="margin-bottom:18px;">
+          <strong style="font-size:13px; color:#263746; display:block; margin-bottom:4px;">Recommended Areas to
+            Review:</strong>
+          <ul id="interview-weakness-list" style="margin:0 0 0 20px; font-size:13px; color:#263746; line-height:1.6;">
+          </ul>
+        </div>
+
+        <div style="display:flex; flex-direction:column; gap:10px;">
+          <button class="btn btn-primary full" id="btn-interview-to-internships" type="button">
+            Explore Recommended Internships for your Score →
+          </button>
+          <button class="btn btn-secondary full" id="btn-retake-interview" type="button">
+            Retake / Practice Another Role
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- SKILL GAP POPUP -->
+
+  <div class="popup-overlay" id="skills">
+
+    <div class="popup">
+
+      <button class="popup-close" type="button" aria-label="Close">×</button>
+
+      <div class="popup-icon">
+        ◎
+      </div>
+
+      <h2>Skill Gap Analysis</h2>
+
+      <p>
+        Compare your current skills with industry standards for your target role
+        to discover exactly what you need to learn.
+      </p>
+
+      <label for="skill-target-role"><strong>Target Role</strong></label>
+
+      <select id="skill-target-role" class="popup-input">
+        <option value="aiml">AI/ML Engineer</option>
+        <option value="software">Software Developer</option>
+        <option value="frontend">Frontend Developer</option>
+        <option value="backend">Backend Developer</option>
+        <option value="fullstack">Full Stack Developer</option>
+        <option value="data">Data Scientist</option>
+        <option value="android">Android Developer</option>
+      </select>
+
+      <label for="skill-current-skills"><strong>Your Current Skills</strong></label>
+
+      <textarea id="skill-current-skills" class="popup-input"
+        placeholder="Example: Python, Machine Learning, SQL, Pandas, Git, HTML, CSS"></textarea>
+
+      <button class="btn btn-primary full" id="run-skill-gap" type="button">
+        Analyze Skill Gap →
+      </button>
+
+      <div class="popup-result" id="skill-gap-result" style="display:none;"></div>
+
+    </div>
+
+  </div>
+
+
+  <!-- ROADMAP POPUP -->
+
+  <div class="popup-overlay" id="roadmap">
+
+    <div class="popup" style="max-width: 680px;">
+
+      <button class="popup-close" type="button" aria-label="Close">×</button>
+
+      <div class="popup-icon">
+        ⌁
+      </div>
+
+      <h2>Personalized Career Roadmap</h2>
+
+      <p>
+        Your dynamic step-by-step learning journey generated from your skill gaps and target career goal.
+      </p>
+
+      <div class="popup-progress" style="margin-bottom: 22px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+          <strong id="roadmap-role-title">AI/ML Engineer Roadmap</strong>
+          <span id="roadmap-progress-text" style="font-size:13px; font-weight:700; color:#159a9c;">0% completed</span>
+        </div>
+
+        <div class="popup-progress-bar">
+          <div class="popup-progress-fill" id="roadmap-progress-fill" style="width: 0%;"></div>
+        </div>
+      </div>
+
+      <!-- DYNAMIC MILESTONES CONTAINER -->
+      <div id="roadmap-milestones-container" style="margin-bottom:20px;">
+        <!-- Populated dynamically via script.js -->
+      </div>
+
+      <div style="display:flex; flex-direction:column; gap:10px;">
+        <button class="btn btn-primary full" id="btn-roadmap-to-interview" type="button">
+          Practice for this Role in AI Mock Interview →
+        </button>
+        <button class="btn btn-secondary full" id="btn-roadmap-to-skills" type="button">
+          Update Skills from Skill Gap Analysis
+        </button>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- DASHBOARD POPUP -->
+
+  <div class="popup-overlay" id="dashboard">
+
+    <div class="popup" style="max-width: 720px;">
+
+      <button class="popup-close" type="button" aria-label="Close">×</button>
+
+      <div class="popup-icon">
+        ◆
+      </div>
+
+      <div
+        style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:10px; margin-bottom:12px;">
+        <div>
+          <h2 id="dash-user-name" style="margin-bottom:4px;">Career Dashboard</h2>
+          <p id="dash-user-subtitle" style="margin-bottom:0; font-size:14px; color:#687783;">
+            Welcome to your AI Career Co-Pilot dashboard.
+          </p>
+        </div>
+        <button class="btn btn-secondary" id="btn-do-logout" type="button" style="padding:8px 14px; font-size:12px;">
+          Logout ↪
+        </button>
+      </div>
+
+      <!-- 4 KPI Metrics -->
+      <div class="popup-options" style="margin: 16px 0 20px 0;">
+        <div class="popup-option" data-popup="resume" style="cursor:pointer;">
+          <span
+            style="font-size:10px; font-weight:700; letter-spacing:1px; color:#687783; text-transform:uppercase;">Resume
+            ATS Score</span>
+          <strong id="dash-stat-resume" style="font-size:24px; color:#159a9c; margin-top:4px;">--/100</strong>
+          <span id="dash-stat-resume-sub" style="font-size:12px;">Click to analyze</span>
+        </div>
+
+        <div class="popup-option" data-popup="skills" style="cursor:pointer;">
+          <span
+            style="font-size:10px; font-weight:700; letter-spacing:1px; color:#687783; text-transform:uppercase;">Skill
+            Match</span>
+          <strong id="dash-stat-skills" style="font-size:24px; color:#159a9c; margin-top:4px;">--%</strong>
+          <span id="dash-stat-skills-sub" style="font-size:12px;">Based on target role</span>
+        </div>
+
+        <div class="popup-option" data-popup="interview" style="cursor:pointer;">
+          <span
+            style="font-size:10px; font-weight:700; letter-spacing:1px; color:#687783; text-transform:uppercase;">Mock
+            Interview</span>
+          <strong id="dash-stat-interview" style="font-size:24px; color:#159a9c; margin-top:4px;">--/100</strong>
+          <span id="dash-stat-interview-sub" style="font-size:12px;">Latest AI assessment</span>
+        </div>
+
+        <div class="popup-option" data-popup="roadmap" style="cursor:pointer;">
+          <span
+            style="font-size:10px; font-weight:700; letter-spacing:1px; color:#687783; text-transform:uppercase;">Roadmap
+            Progress</span>
+          <strong id="dash-stat-roadmap" style="font-size:24px; color:#159a9c; margin-top:4px;">0%</strong>
+          <span id="dash-stat-roadmap-sub" style="font-size:12px;">Modules completed</span>
+        </div>
+      </div>
+
+      <!-- Live Roadmap Progress in Dashboard -->
+      <div class="popup-progress" style="margin-bottom:22px;">
+        <div style="display:flex; justify-content:space-between; margin-bottom:6px;">
+          <strong id="dash-roadmap-role-title">Target Career Roadmap</strong>
+          <span id="dash-roadmap-percent-text" style="font-size:13px; font-weight:700; color:#159a9c;">0%
+            completed</span>
+        </div>
+        <div class="popup-progress-bar">
+          <div class="popup-progress-fill" id="dash-roadmap-bar" style="width: 0%;"></div>
+        </div>
+      </div>
+
+      <!-- Quick Tool Hub -->
+      <div
+        style="font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:1px; color:#52616f; margin-bottom:10px;">
+        Quick Career Actions
+      </div>
+      <div
+        style="display:grid; grid-template-columns:repeat(auto-fit, minmax(120px, 1fr)); gap:10px; margin-bottom:22px;">
+        <button class="btn btn-secondary" data-popup="resume" style="padding:10px; font-size:12px; text-align:center;">
+          ▣ Resume Analyzer
+        </button>
+        <button class="btn btn-secondary" data-popup="skills" style="padding:10px; font-size:12px; text-align:center;">
+          ◎ Skill Gap
+        </button>
+        <button class="btn btn-secondary" data-popup="roadmap" style="padding:10px; font-size:12px; text-align:center;">
+          ⌁ AI Roadmap
+        </button>
+        <button class="btn btn-secondary" data-popup="interview"
+          style="padding:10px; font-size:12px; text-align:center;">
+          ◉ Mock Interview
+        </button>
+        <button class="btn btn-secondary" data-popup="internships"
+          style="padding:10px; font-size:12px; text-align:center;">
+          ★ Internships
+        </button>
+      </div>
+
+      <!-- Recent Activity Feed -->
+      <div
+        style="font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:1px; color:#52616f; margin-bottom:8px;">
+        Recent Activity
+      </div>
+      <div id="dash-recent-activities"
+        style="background:#f8fafb; border:1px solid rgba(38,55,70,0.08); border-radius:12px; padding:12px 16px; margin-bottom:18px;">
+        <p style="margin:0; font-size:13px; color:#687783;">No activity yet. Start by analyzing your resume or
+          practicing mock interviews.</p>
+      </div>
+
+      <button class="btn btn-primary full" id="dash-continue-btn" type="button">
+        Continue Career Roadmap →
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <!-- INTERNSHIP POPUP -->
+
+  <div class="popup-overlay" id="internships">
+
+    <div class="popup" style="max-width: 720px;">
+
+      <button class="popup-close" type="button" aria-label="Close">×</button>
+
+      <div class="popup-icon">
+        ★
+      </div>
+
+      <h2>AI Internship Finder</h2>
+
+      <p>
+        Discover verified internships tailored to your skills, target role, and interview score.
+      </p>
+
+      <!-- Search & Work Mode Filters -->
+      <div style="display:flex; gap:10px; margin-bottom:15px; flex-wrap:wrap;">
+        <input class="popup-input" id="internship-search-input" type="text"
+          placeholder="Search by skill, company, or title..." style="flex:1; min-width:200px; margin-bottom:0;">
+        <select id="internship-filter-mode" class="popup-input" style="width:auto; min-width:140px; margin-bottom:0;">
+          <option value="all">All Modes</option>
+          <option value="remote">Remote Only</option>
+          <option value="hybrid">Hybrid</option>
+          <option value="onsite">On-Site</option>
+        </select>
+      </div>
+
+      <div id="internship-match-info" style="font-size:13px; font-weight:600; color:#159a9c; margin-bottom:12px;">
+        Showing matching opportunities for your profile...
+      </div>
+
+      <div id="internships-list"
+        style="display:flex; flex-direction:column; gap:14px; max-height:420px; overflow-y:auto; padding-right:4px;">
+        <!-- Populated dynamically via script.js -->
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- SIGNUP POPUP -->
+
+  <div class="popup-overlay" id="signup">
+
+    <div class="popup">
+
+      <button class="popup-close" type="button" aria-label="Close">×</button>
+
+      <div class="popup-icon">
+        ✦
+      </div>
+
+      <h2>Join Next step AI</h2>
+
+      <p>
+        Create your student account to unlock personalized AI career coaching.
+      </p>
+
+      <div id="signup-msg" style="display:none; margin-bottom:14px;"></div>
+
+      <label for="signup-name"><strong>Full Name</strong></label>
+      <input type="text" id="signup-name" class="popup-input" placeholder="e.g. Kunal Katiyar" required>
+
+      <label for="signup-email"><strong>Email Address</strong></label>
+      <input type="email" id="signup-email" class="popup-input" placeholder="name@college.edu" required>
+
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+        <div>
+          <label for="signup-password"><strong>Password</strong></label>
+          <input type="password" id="signup-password" class="popup-input" placeholder="Min. 6 chars" required>
+        </div>
+        <div>
+          <label for="signup-confirm-password"><strong>Confirm Password</strong></label>
+          <input type="password" id="signup-confirm-password" class="popup-input" placeholder="Confirm password"
+            required>
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+        <div>
+          <label for="signup-education"><strong>Education Level</strong></label>
+          <select id="signup-education" class="popup-input">
+            <option value="Undergraduate">Undergraduate (B.Tech / BE / BCA)</option>
+            <option value="Postgraduate">Postgraduate (M.Tech / MCA / MS)</option>
+            <option value="Diploma">Diploma / Associate</option>
+            <option value="Self-Taught">Self-Taught / Bootcamp</option>
+          </select>
+        </div>
+        <div>
+          <label for="signup-year"><strong>Graduation Year</strong></label>
+          <select id="signup-year" class="popup-input">
+            <option value="2027">2027</option>
+            <option value="2026" selected>2026</option>
+            <option value="2025">2025</option>
+            <option value="2024">2024</option>
+            <option value="2028">2028+</option>
+          </select>
+        </div>
+      </div>
+
+      <label for="signup-college"><strong>College / University</strong></label>
+      <input type="text" id="signup-college" class="popup-input" placeholder="e.g. XYZ Institute of Technology">
+
+      <label for="signup-degree"><strong>Degree / Branch</strong></label>
+      <input type="text" id="signup-degree" class="popup-input" placeholder="e.g. Computer Science & Engineering">
+
+      <label for="signup-role"><strong>Preferred Career / Job Role</strong></label>
+      <select id="signup-role" class="popup-input">
+        <option value="aiml">AI/ML Engineer</option>
+        <option value="software">Software Developer</option>
+        <option value="frontend">Frontend Developer</option>
+        <option value="backend">Backend Developer</option>
+        <option value="fullstack">Full Stack Developer</option>
+        <option value="data">Data Scientist</option>
+        <option value="android">Android Developer</option>
+      </select>
+
+      <button class="btn btn-primary full" id="btn-do-signup" type="button">
+        Create Account & Go to Dashboard →
+      </button>
+
+      <p style="text-align:center; font-size:13px; margin-top:14px; margin-bottom:0;">
+        Already have an account? <a href="#" data-popup="login"
+          style="color:#159a9c; font-weight:700; text-decoration:none;">Login here</a>
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <!-- LOGIN POPUP -->
+
+  <div class="popup-overlay" id="login">
+
+    <div class="popup">
+
+      <button class="popup-close" type="button" aria-label="Close">×</button>
+
+      <div class="popup-icon">
+        👤
+      </div>
+
+      <h2>Welcome Back</h2>
+
+      <p>
+        Login to access your AI career roadmap, resume analysis, and mock interviews.
+      </p>
+
+      <div id="login-msg" style="display:none; margin-bottom:14px;"></div>
+
+      <label for="login-email"><strong>Email Address</strong></label>
+      <input type="email" id="login-email" class="popup-input" placeholder="name@college.edu" required>
+
+      <label for="login-password"><strong>Password</strong></label>
+      <input type="password" id="login-password" class="popup-input" placeholder="Enter your password" required>
+
+      <button class="btn btn-primary full" id="btn-do-login" type="button">
+        Login →
+      </button>
+
+      <button class="btn btn-secondary full" id="btn-demo-login" type="button" style="margin-top:10px;">
+        ⚡ Quick Demo Login (Kunal K. Profile)
+      </button>
+
+      <p style="text-align:center; font-size:13px; margin-top:14px; margin-bottom:0;">
+        Don't have an account? <a href="#" data-popup="signup"
+          style="color:#159a9c; font-weight:700; text-decoration:none;">Sign up free</a>
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <!-- PREMIUM POPUP -->
+
+  <div class="popup-overlay" id="premium">
+
+    <div class="popup">
+
+      <button class="popup-close" type="button" aria-label="Close">×</button>
+
+      <div class="popup-icon">
+        ★
+      </div>
+
+      <h2>Next step AI Premium</h2>
+
+      <p>
+        Unlock unlimited AI career tools and premium
+        internship opportunities.
+      </p>
+
+      <div class="popup-result">
+
+        <h3>₹299 / month</h3>
+
+        <p>
+          ✓ Unlimited Resume Analysis<br>
+          ✓ Unlimited AI Interviews<br>
+          ✓ Personalized Roadmaps<br>
+          ✓ Advanced Skill Gap Analysis<br>
+          ✓ Premium Internship Opportunities
+        </p>
+
+      </div>
+
+      <button class="btn btn-primary full" type="button"
+        onclick="alert('Thank you for choosing NextStepAI Premium! Demo checkout simulated successfully.');">
+        Continue to Payment →
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <!-- DEMO POPUP -->
+
+  <div class="popup-overlay" id="demo">
+
+    <div class="popup">
+
+      <button class="popup-close" type="button" aria-label="Close">×</button>
+
+      <div class="popup-icon">
+        ▶
+      </div>
+
+      <h2>See Next step AI in Action</h2>
+
+      <p>
+        Experience how Next step AI analyzes your resume,
+        identifies skill gaps, conducts mock interviews and
+        creates your personalized career roadmap.
+      </p>
+
+      <div
+        style="padding:16px; background:#f8fafb; border:1px solid rgba(38,55,70,0.1); border-radius:14px; margin-bottom:18px;">
+        <div style="font-size:14px; font-weight:600; color:#263746; line-height:1.7;">
+          <strong>1. Resume Analysis:</strong> Extracts skills & generates ATS score.<br>
+          <strong>2. Skill Gap:</strong> Identifies missing skills for your target role.<br>
+          <strong>3. Career Roadmap:</strong> Dynamically creates 4-month milestones.<br>
+          <strong>4. Mock Interview:</strong> AI technical & HR interview practice.<br>
+          <strong>5. Internship Finder:</strong> Matches top internships with your profile.
+        </div>
+      </div>
+
+      <button class="btn btn-primary full" id="btn-start-interactive-demo" type="button">
+        Start Interactive Experience →
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <!-- ================= JAVASCRIPT ================= -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>

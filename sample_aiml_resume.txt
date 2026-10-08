@@ -1,0 +1,36 @@
+KUNAL KATIYAR
+Email: kunal.katiyar@example.com | Phone: +91 9876543210
+LinkedIn: linkedin.com/in/kunalkatiyar | GitHub: github.com/kunalkatiyar
+
+CAREER SUMMARY
+Passionate Software & AI/ML Engineer with strong background in Python, Machine Learning, Data Structures, and SQL. Experienced in developing predictive models and scalable web applications.
+
+EDUCATION
+Bachelor of Technology in Computer Science & Engineering
+XYZ Institute of Technology (2022 - 2026) | CGPA: 8.9/10
+
+TECHNICAL SKILLS
+- Programming Languages: Python, C++, SQL, JavaScript
+- AI & Data Science: NumPy, Pandas, Scikit-learn, Machine Learning, Statistics, Data Visualization
+- Developer Tools: Git, GitHub, Docker, Linux, VS Code
+- Core CS: Data Structures, Algorithms, OOP, Database Management Systems
+
+KEY PROJECTS
+1. AI Career Assistant & Skill Gap Analyzer
+- Developed an end-to-end web platform using Python, Machine Learning, and REST APIs.
+- Implemented real-time resume parsing and skill gap recommendation algorithms, achieving 94% user satisfaction.
+- Optimized backend search queries, improving response latency by 35%.
+
+2. Customer Churn Prediction Engine
+- Engineered classification models using Scikit-learn, Pandas, and NumPy on 50,000+ customer records.
+- Built interactive visualizations using Matplotlib and Seaborn to communicate insights.
+
+EXPERIENCE & INTERNSHIPS
+Machine Learning Intern | Tech Innovators Ltd. (June 2025 - August 2025)
+- Built automated data preprocessing pipelines using Python and Pandas for 100K+ daily records.
+- Collaborated with engineering teams to deploy ML models via Docker containers.
+- Reduced data pipeline failure rates by 25% through rigorous unit testing.
+
+CERTIFICATIONS
+- Machine Learning Specialization - Coursera
+- Python for Data Science - DeepLearning.AI
